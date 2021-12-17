@@ -1,8 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-
 body {
     font-family: Poppins;
 }
-#errorPassword, #errorName, #errorPhone {
+
+#errorPassword,
+#errorName,
+#errorPhone {
     display: none;
+}
+
+h5 {
+    color: black;
+}
+
+.errorForm input {
+    border: 2px solid red;
+}
+
+.errorField {
+    display: none;
+}
+
+.errorForm .errorField {
+    display: block;
+    color: red;
+    font-size: 0.75rem;
+}
+
+.formCheck input {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container.formBuy {
+        width: 88%;
+    }
 }

@@ -1,4 +1,96 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-body{
+body {
     font-family: Poppins;
+}
+
+p {
+    margin-bottom: 2px;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #ccc;
+}
+
+.navbar {
+    background-color: #222;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #ccc;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ccc;
+}
+
+.imgHome {
+    height: 75vh;
+    background-image: url("../images/shophome.jpg");
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+.claimHome {
+    margin-top: 30vh;
+    padding: 8px;
+    box-sizing: content-box;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(0, 0, 0, 0.65)), color-stop(90%, rgba(0, 0, 0, 0)));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 50%, rgba(0, 0, 0, 0) 90%);
+}
+
+footer {
+    background-color: rgba(30, 30, 30, 0.3);
+}
+
+
+/*TITLES*/
+
+.t-t1 {
+    color: white;
+    text-align: center;
+}
+
+.t-t2 {
+    color: white;
+    text-align: center;
+    font-size: 1.35rem;
+}
+
+.t-t3 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.t-t4 {
+    font-size: 1.5rem;
+}
+
+.t-t5 {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 96%;
+        margin: 0 auto;
+    }
+    .card {
+        margin-bottom: 12px;
+    }
 }
